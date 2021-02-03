@@ -39,5 +39,6 @@
     "redux-observable": "^1.2.0",
     "reselect": "^4.0.0",
     "rxjs": "^6.6.3"
-  }
+  },
+  "gitHead": "f53135dab196b45cdc3fef4e56fbd95cfd0f72f0"
 }
