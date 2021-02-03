@@ -1,0 +1,20 @@
+.container {
+    /*width: 100vw;*/
+    display: block;
+}
+
+.toolbar-container {
+    height: 130px;
+}
+
+.toolbar {
+    border-top: 1px solid #ccc;
+    width: 200px;
+}
+
+.tabs {
+    position: relative;
+    left: 50%;
+    top: -140px;
+    width: 50%;
+}

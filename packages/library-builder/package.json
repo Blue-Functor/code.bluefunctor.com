@@ -1,0 +1,49 @@
+{
+  "name": "@bluefunctor/library-builder",
+  "version": "0.1.0",
+  "description": "The Library Builder is a module that translates modern JavaScript code to VanillaJS and CSS, creating a /dist directory for the modules.",
+  "keywords": [],
+  "author": "georgelivas <giorgos.livas.99@gmail.com>",
+  "license": "ISC",
+  "main": "lib/library-builder.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blue-Functor/create-component-library.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bin": {
+    "library-builder": "./lib/library-builder.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Blue-Functor/create-component-library/issues"
+  },
+  "homepage": "https://github.com/Blue-Functor/create-component-library#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-node-resolve": "^11.1.0",
+    "postcss": "^8.2.4",
+    "rollup": "^2.38.0",
+    "rollup-plugin-postcss": "^4.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "8.x"
+  },
+  "devDependencies": {
+    "postcss": "8.x"
+  }
+}
