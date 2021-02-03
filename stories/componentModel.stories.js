@@ -1,12 +1,11 @@
 
 import { Description, createMainStory, generateStory } from '../packages/library-template-utils';
 
-import { componentModel } from '../packages/code-component-model';
 import { version } from '../packages/code-component-model/package.json';
 
 const story = createMainStory({
   title: 'NEW/componentModel',
-  component: componentModel,
+  component: () => {},
   description: (
       <Description
           name="componentModel"
@@ -18,12 +17,4 @@ const story = createMainStory({
   ),
 });
 
-const Template = (args) => <componentModel {...args} />;
-
-const Greeting = generateStory({
-    Template,
-    props: {},
-});
-
-export { Greeting };
 export default story;
