@@ -1,6 +1,6 @@
 {
   "name": "@bluefunctor/code",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "This is the main Library package, all components will be exported from here.",
   "keywords": [],
   "author": "georgelivas <giorgos.livas.99@gmail.com>",
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/Blue-Functor/code.bluefunctor.com#readme",
   "dependencies": {
-    "@bluefunctor/code-component-model": "^0.1.2"
+    "@bluefunctor/code-component-model": "^0.1.3"
   },
   "gitHead": "510cfb9c126c792779d574a698affe8b9c953f79"
 }
