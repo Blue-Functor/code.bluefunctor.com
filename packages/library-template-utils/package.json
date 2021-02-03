@@ -1,6 +1,6 @@
 {
   "name": "@bluefunctor/library-template-utils",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Useful utility functions and UI components for Storybook.",
   "keywords": [
     "Storybook",
@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/Blue-Functor/create-component-library#readme",
   "devDependencies": {
-    "@bluefunctor/library-builder": "^0.1.1",
+    "@bluefunctor/library-builder": "^0.1.2",
     "react": "^17.0.1"
   },
   "peerDependencies": {

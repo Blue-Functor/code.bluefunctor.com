@@ -1,6 +1,6 @@
 {
   "name": "@bluefunctor/code",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This is the main Library package, all components will be exported from here.",
   "keywords": [],
   "author": "georgelivas <giorgos.livas.99@gmail.com>",
@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com",
+    "registry": "https://npm.pkg.github.com",
     "access": "public"
   },
   "repository": {
@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/Blue-Functor/code.bluefunctor.com#readme",
   "dependencies": {
-    "@bluefunctor/code-component-model": "^0.1.1"
+    "@bluefunctor/code-component-model": "^0.1.2"
   },
   "gitHead": "f53135dab196b45cdc3fef4e56fbd95cfd0f72f0"
 }
